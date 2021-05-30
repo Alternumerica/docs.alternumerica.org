@@ -178,7 +178,7 @@ Votre téléphone Android vous demandera peut-être avec quelle application cont
 Vous devriez maintenant être connecté à votre compte Element.
 
 <div class="alert alert-success" role="alert">
-N'oubliez maintenant pas de configurer Element de <a href="#configuration-de-la-sauvegarde-s%C3%A9curis%C3%A9e">configurer la sauvegarde sécurisée</a> si c'est votre première connexion, ou de valider votre appareil si vous avez déjà un autre appareil connecté à votre compte.
+N'oubliez maintenant pas de <a href="#configuration-de-la-sauvegarde-s%C3%A9curis%C3%A9e">configurer la sauvegarde sécurisée</a> si c'est votre première connexion, ou de <a href="#v%C3%A9rification-dune-nouvelle-session">vérifier votre session</a> si vous avez déjà une autre session connectée à votre compte.
 </div>
 
 ## Configuration de la sauvegarde sécurisée
@@ -216,3 +216,56 @@ Confirmez simplement en cliquant sur **Continue with Serveur Keycloak**
 {{< img src="element-configurer-sauvegarde-sécurisée-confirm.jpeg" alt="Square" class="border-0" >}}
 
 Et cliquez enfin sur **Confirmer** pour confirmer la configuration du chiffrement.
+
+
+## Vérification d'une nouvelle session
+
+Tout **nouvel appareil** ou **nouvelle application** se connectant à votre compte Matrix est considéré comme une **nouvelle session**.
+
+<div class="alert alert-warning" role="alert">
+ 👉 <i>Toujours dans la logique d'offrir le système le plus sécurisé et le plus indépendant d'une instance centrale possible, ce système de vérification permet d'échanger vos clés de chiffrement entre appareils, et ainsi d'accéder aux messages chiffrés d'un appareil à l'autre. En ne procédant pas à cette vérification, vos appareils et sessions n'auront pas accès aux messages privés reçus sur d'autres sessions.</i>
+</div>
+
+Lorsque vous vous connectez à votre compte Matrix avec une nouvelle application, vous verrez normalement ce type d'alerte sur vos appareils :
+
+{{< img src="element-verifier-connexion.jpeg" alt="Square" class="border-0" >}}
+
+{{< img-simple src="demande-verification.png" alt="Square" class="border-0 mx-auto" >}}
+
+{{< img-simple src="resized_element-android-verify-session.png" alt="Square" class="border-0 mx-auto" >}}
+
+À partir de là vous sera proposé deux solutions :
+
+- Vérifier votre session à partir de la clé que vous avez configuré lors de la [sauvegarde sécurisée](#configuration-de-la-sauvegarde-s%C3%A9curis%C3%A9e).
+
+{{< img-simple src="verifier-avec-cle-securite.jpeg" alt="Verifier avec clé de sécurité" class="border-0 mx-auto" >}}
+
+- Vérifier votre session depuis un autre appareil, ce qui est de loin la solution la plus simple :
+
+{{< img-simple src="element-scan-code.jpeg" alt="Verifier avec clé de sécurité" class="border-0 mx-auto" >}}
+
+Et là à nouveau ! Deux solutions sont proposées !
+
+- La plus simple, scanner un code QR. Sauf que cela ne fonctionne généralement que d'un **ordinateur à un téléphone**, ou cas plus exceptionnel peut-être, d'un téléphone à un autre.
+
+{{< img-simple src="verifier-scan-code.png" alt="Verifier avec clé de sécurité" class="border-0 mx-auto d-block" >}}
+
+Il suffit alors de scanner le code QR d'un appareil avec l'autre appareil !
+
+- L'autre solution, utile surtout lorsque les **deux sessions se trouvent sur le même appareil**, vérifier la correspondance d'émojis qui s'affichent à l'écran.
+
+{{< img-simple src="emojis-verification.jpeg" alt="Verifier avec clé de sécurité" class="border-0 mx-auto d-block" >}}
+
+{{< img-simple src="verifier-emojis.png" alt="Verifier avec clé de sécurité" class="border-0 mx-auto d-block" >}}
+
+Vérifier que les émojis correspondent et cliquez sur les **deux sessions, "ils correspondent"**.
+
+{{< img-simple src="element-verifié.jpeg" alt="Verifier avec clé de sécurité" class="border-0 mx-auto d-block" >}}
+
+{{< img-simple src="verifier-OK.png" alt="Verifier avec clé de sécurité" class="border-0 mx-auto d-block" >}}
+
+Et voilà ! Le travail est fait ! Votre nouvelle session est maintenant vérifiée !
+
+<div class="alert alert-warning" role="alert">
+ 👉 <i>Cette vérification peut sembler inutile, bizarre et rébarbative, mais c'est en réalité un moyen simple et ingénieux d'intégrer une vérification de sécurité qui protège à la fois du piratage, et de l'ingérence potentielle d'un administrateur serveur.</i>
+</div>
