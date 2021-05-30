@@ -7,10 +7,10 @@
     {{ .Scratch.Set "class" "error404" -}}
   {{ else if eq .Kind "page" -}}
     {{ .Scratch.Set "class" .Type -}}
-    {{ .Scratch.Add "class" " single" -}}
+    {{ .Scratch.Add "class" " single blog" -}}
   {{ else -}}
     {{ .Scratch.Set "class" .Type -}}
-    {{ .Scratch.Add "class" " list" -}}
+    {{ .Scratch.Add "class" " list blog" -}}
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
     {{ partial "header/header.html" . }}

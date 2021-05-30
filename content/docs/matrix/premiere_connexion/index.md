@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "matrix"
-weight: 666
+weight: 220
 toc: true
 ---
 
@@ -50,7 +50,9 @@ Une fois vos informations remplies, vous serez normalement dirigés vers le menu
 
 Il vous restera à accepter les notifications et le stockage persistant sur votre navigateur pour que l'application en ligne fonctionne correctement.
 
-Et n'oubliez pas d'ajouter la page aux favoris de votre navigateur pour retrouver facilement Element.
+<div class="alert alert-success" role="alert">
+N'oubliez maintenant pas d'ajouter la page aux favoris de votre navigateur pour retrouver facilement Element, et de <a href="#configuration-de-la-sauvegarde-s%C3%A9curis%C3%A9e">configurer la sauvegarde sécurisée</a>
+</div>
 
 ## Depuis l'application PC
 
@@ -106,6 +108,10 @@ Vous devriez maintenant être sur le menu principal d'Element.
 
 {{< img src="element-desktop-welcome.jpeg" alt="Square" class="border-0" >}}
 
+<div class="alert alert-success" role="alert">
+N'oubliez maintenant pas de configurer Element pour se <a href="#configurer-element-pour-se-lancer-au-d%C3%A9marrage">lancer au démarrage</a>, et de <a href="#configuration-de-la-sauvegarde-s%C3%A9curis%C3%A9e">configurer la sauvegarde sécurisée</a>
+</div>
+
 
 ### Configurer Element pour se lancer au démarrage
 
@@ -126,3 +132,87 @@ De là cherchez la section **Démarrer automatiquement après la phase d'authent
 {{< img src="element-desktop-demarrer-automatiquement.jpeg" alt="Square" class="border-0" >}}
 
 
+## Depuis l'application Android
+
+<div class="alert alert-warning" role="alert">
+Malheureusement, l'application Element sur Android n'est pour l'instant pas capable de gérer plusieurs comptes Matrix. Si vous possédez déjà un compte Matrix, vous pouvez utilisez ce compte avec <a href="https://fluffychat.im/">FluffyChat</a>, disponible sur le <a href="https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat">PlayStore</a> ou sur <a href="https://fluffychat.im/en/fdroid.html">F-Droid</a>.
+</div>
+
+Une fois l'application [Element](https://element.io/get-started) téléchargée et installée sur [PlayStore](https://play.google.com/store/apps/details?id=im.vector.app) ou [F-Droid](https://f-droid.org/packages/im.vector.app/), ouvrez la.
+
+{{< img-simple src="resized_element-android-start.png" alt="Element-android" class="border-0 mx-auto d-block" >}}
+
+Cliquez simplement sur **Démarrer**.
+
+{{< img-simple src="resized_element-android-choose-server.png" alt="Element-android" class="border-0 mx-auto d-block" >}}
+
+L'application vous demande de choisir un serveur.
+
+<div class="alert alert-warning" role="alert">
+ 👉 <i>N'oubliez pas ! Element et Matrix reposent sur une architecture décentralisée, vous pouvez choisir vous-même à qui confier vos données ! Même si cela semble compliqué à premier abord, c'est la possibilité de ce choix qui fait tout l'attrait d'Element/Matrix !</i>
+</div>
+
+Vous allez donc maintenant choisir **Autre**, *Paramètres personnalisés et avancés* pour atterrir sur cet écran :
+
+{{< img-simple src="resized_element-android-address-server.png" alt="Element-android" class="border-0 mx-auto d-block" >}}
+
+C'est ici que vous pouvez saisir l'adresse du serveur Matrix de Alternumerica : **synapse.alternumerica.org**.
+
+Cliquez ensuite sur **Poursuivre**.
+
+{{< img-simple src="resized_element-android-auth-unique.png" alt="Element-android" class="border-0 mx-auto d-block" >}}
+
+Cliquez ensuite sur **Poursuivre avec authentification unique** pour utiliser vos identifiants Alternumerica.
+
+Vous serez alors dirigés vers votre navigateur internet vers cette page :
+
+{{< img-simple src="resized_element-android-keycloak-connexion.png" alt="Element-android" class="border-0 mx-auto d-block" >}}
+
+Saisissez vos identifiants Alternumerica avant de valider avec le bouton **Connexion**.
+
+{{< img-simple src="resized_element-android-keycloak-continue.png" alt="Element-android" class="border-0 mx-auto d-block" >}}
+
+Et cliquez sur **Continue** pour confirmer l'accès de l'application à votre compte.
+Votre téléphone Android vous demandera peut-être avec quelle application continuer, choisissez bien sûr **Element**.
+
+Vous devriez maintenant être connecté à votre compte Element.
+
+<div class="alert alert-success" role="alert">
+N'oubliez maintenant pas de configurer Element de <a href="#configuration-de-la-sauvegarde-s%C3%A9curis%C3%A9e">configurer la sauvegarde sécurisée</a> si c'est votre première connexion, ou de valider votre appareil si vous avez déjà un autre appareil connecté à votre compte.
+</div>
+
+## Configuration de la sauvegarde sécurisée
+
+<div class="alert alert-danger" role="alert"><b>La sauvegarde sécurisée est indispensable pour retrouver vos messages d'un appareil à l'autre.</b></div>
+
+Une fois votre première conversation lancée, Element va vous demander de configurer la sauvegarde sécurisée.
+
+{{< img src="element-configurer-sauvegarde-sécurisée.jpeg" alt="Square" class="border-0" >}}
+
+<div class="alert alert-warning" role="alert">
+ 👉 <i>La sauvegarde sécurisée permet de transférer les clés de chiffrement d'un appareil à l'autre de manière sécurisée.
+Les développeurs d'Element et de Matrix sont arrivés à une solution suffisamment simple et ingénieuse pour que la sécurité des messages ne puisse pas être mise en cause par qui que ce soit, pas même par l'administrateur du système : Cela apporte la rare garantie que seul vous et votre correspondant êtes capables de lire les messages que vous échangez.
+Et tout cela sans dépendre d'une instance centrale pour gérer vos clés comme c'est le cas de la plupart des messageries instantanées.</i>
+</div>
+
+Cliquez sur **Continuer** sur la bulle apparue en haut à gauche de votre écran.
+
+{{< img src="element-configurer-sauvegarde-sécurisée-configure.jpeg" alt="Square" class="border-0" >}}
+
+Element va vous demander de **Générer une clé de sécurité** ou de Saisir une phrase de sécurité, la première option est la plus simple, cliquez simplement sur **Continuer**.
+
+{{< img src="element-configurer-sauvegarde-sécurisée-sauvegarde.jpeg" alt="Square" class="border-0" >}}
+
+Vous allez maintenant devoir sauvegarder votre clé en lieu sûr, idéalement dans un **gestionnaire de mots de passe**, sinon dans un **dossier privé** que vous êtes sûr de conserver. Vous pouvez aussi le conserver sur votre Cloud, mais cela est moins conseillé.
+
+{{< img src="element-configurer-sauvegarde-sécurisée-auth.jpeg" alt="Square" class="border-0" >}}
+
+Vous allez maintenant devoir confirmer votre identité avec l'**authentification unique**. Vous serez normalement dirigé vers cette page de sécurité :
+
+{{< img src="element-configurer-sauvegarde-sécurisée-keycloak-continue.jpeg" alt="Square" class="border-0" >}}
+
+Confirmez simplement en cliquant sur **Continue with Serveur Keycloak**
+
+{{< img src="element-configurer-sauvegarde-sécurisée-confirm.jpeg" alt="Square" class="border-0" >}}
+
+Et cliquez enfin sur **Confirmer** pour confirmer la configuration du chiffrement.

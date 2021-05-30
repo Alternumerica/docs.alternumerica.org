@@ -9,7 +9,7 @@ images: ["cloud.alternumerica.org-intro.jpg"]
 menu:
   docs:
     parent: "nextcloud"
-weight: 999
+weight: 320
 toc: true
 ---
 
