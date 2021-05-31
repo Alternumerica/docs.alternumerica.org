@@ -4,15 +4,15 @@
 title = "Alternumerica"
 titleSeparator = "-"
 titleAddition = "Site internet de Alternumerica"
-description = "Toute la documentation nécessaire pour l'utilisation des services d'Alternumerica"
+description = "Explorons ensembles les alternatives en numérique"
 
 ## Open Graph + Twitter Cards
 images = ["alternumerica.png"]
-twitterSite = "henkverlinde"
-twitterCreator = "henkverlinde"
-facebookAuthor = "verlinde.henk"
-facebookPublisher = "verlinde.henk"
-ogLocale = "en_US"
+twitterSite = ""
+twitterCreator = ""
+facebookAuthor = ""
+facebookPublisher = ""
+ogLocale = "fr_FR"
 
 ## JSON-LD
 schemaType = "Organization"
