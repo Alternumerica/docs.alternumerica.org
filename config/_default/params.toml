@@ -7,7 +7,7 @@ titleAddition = "Site internet de Alternumerica"
 description = "Toute la documentation nécessaire pour l'utilisation des services d'Alternumerica"
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"]
+images = ["alternumerica.png"]
 twitterSite = "henkverlinde"
 twitterCreator = "henkverlinde"
 facebookAuthor = "verlinde.henk"
@@ -43,8 +43,8 @@ alert = false
 alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
-docsRepo = "https://github.com/h-enk/doks"
-editPage = false
+docsRepo = "https://github.com/Alternumerica/docs.alternumerica.org/"
+editPage = true
 
 [options]
   lazySizes = true
