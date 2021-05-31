@@ -24,9 +24,9 @@ Le principe fondamental de Matrix est que plusieurs serveurs peuvent fonctionner
 
 ### L'intéret ?
 
-La libre concurrence.
-La prévention de monopoles.
-La liberté de choix.
+- La libre concurrence.
+- La prévention de monopoles.
+- La liberté de choix.
 
 En Janvier 2021, WhatsApp a annoncé à tous ses utilisateurs un changement de politique concernant les données personnelles. Pas un gros changement certes, ils annonçaient que les données récupérées par WhatsApp seraient désormais partagées avec Facebook ( comme WhatsApp a été racheté par Facebook en 2014, il est difficile de croire que cet échange n'existait pas avant ). Donc toutes les données, heure des appels, les personnes avec qui ses utilisateurs sont en contact, les groupes auxquels ses utilisateurs participent, etc... Pouvaient dorénavant être utilisés à des fins publicitaires.
 

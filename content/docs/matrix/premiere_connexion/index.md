@@ -117,15 +117,15 @@ N'oubliez maintenant pas de configurer Element pour se <a href="#configurer-elem
 
 Cliquez sur votre nom d'utilisateur en haut à gauche de l'écran :
 
-{{< img src="element-desktop-menu.jpeg" alt="Square" class="border-0" >}}
+{{< img src="element-desktop-menu.jpeg" alt="Menu Element" class="border-0" >}}
 
 Cela fera apparaître un menu, cliquez sur **Tous les paramètres**.
 
-{{< img src="element-menu-display.jpeg" alt="Square" class="border-0" >}}
+{{< img src="element-menu-display.jpeg" alt="Menu Element" class="border-0" >}}
 
 Dans le menu apparu, ouvrez le sous-menu **Préférences**
 
-{{< img src="element-menu-preferences.jpeg" alt="Square" class="border-0" >}}
+{{< img src="element-menu-preferences.jpeg" alt="Element Préférences" class="border-0" >}}
 
 De là cherchez la section **Démarrer automatiquement après la phase d'authentification du système**, veuillez à ce que l'interrupteur soit sur la position verte comme sur la photo :
 

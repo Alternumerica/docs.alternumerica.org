@@ -20,6 +20,6 @@ Lors de l'adhésion à Alternumerica, les services suivants vous sont offerts :
 </br></br>
 - Un compte Nextcloud qui vous permet de conserver une sauvegarde de vos fichiers sur les serveurs de l'association. La quantité disponible avec l'adhésion de base est de 5 Go. Nextcloud vous permet en plus de synchroniser tous vos contacts et calendriers entre vos différents appareils, et de partager facilement vos fichiers et dossiers par email. [Voir la documentation pour plus d'informations](/docs/nextcloud).
 
-- L'accès à un système de visio-conférence Jitsi reservé aux membres de l'association.
+- *L'accès à un système de visio-conférence Jitsi reservé aux membres de l'association.* "* MISE EN PLACE PRÉVUE"
 
 - Un accès aux salons de discussions avec des informaticiens et des utilisateurs expérimentés. Assistance reposant sur l'entre-aide et le bénévolat. Conseil en logiciel et achat de matériel éthique et facilitant l'utilisation du logiciel libre et l'indépendance aux GAFAM.
