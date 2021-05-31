@@ -20,7 +20,7 @@ Matrix a été crée en 2015 et a été concu de l'idée de créer un système d
 
 ### Décentralisée et fédérée ?
 
-Le principe fondamental de Matrix est que plusieurs serveurs peuvent fonctionner ensembles et communiquer entre eux. Qu'est ce que ça veut dire ? Et bien que comme le mail, quelqu'un possédant une adresse email chez gmail ( exemple@gmail.com ) peut communiquer avec quelqu'un possédant une adresse prontonmail ( exemple@protonmail.com ) bien que les données soient conservées sur des serveurs différents n'appartenant pas aux mêmes acteurs.
+Le principe fondamental de Matrix est que plusieurs serveurs peuvent fonctionner ensembles et communiquer entre eux. Qu'est ce que cela veut dire ? Et bien que comme le mail, quelqu'un possédant une adresse email chez gmail ( exemple@gmail.com ) peut communiquer avec quelqu'un possédant une adresse prontonmail ( exemple@protonmail.com ) bien que les données soient conservées sur des serveurs différents n'appartenant pas aux mêmes acteurs.
 
 ### L'intéret ?
 

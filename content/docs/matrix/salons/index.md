@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "matrix"
-weight: 240
+weight: 230
 toc: true
 ---
 
@@ -83,3 +83,28 @@ Une fois le ou les utilisateur(s) sélectionné(s) en cliquant dessus, cliquez s
 {{< img src="utilisateur-invité" alt="Créer un nouveau salon" class="border-0" >}}
 
 L'utilisateur apparaîtra dans la liste des invités jusqu'à ce qu'il·elle accepte l'invitation.
+
+
+## Gérer les notifications
+
+Dans la liste des salons, à côté de chaque salon se tient une petite icône en forme de cloche :
+
+{{< img-simple src="param-notifs" alt="Notifications" class="border-0" >}}
+
+Cette icône sert à régler les notifications du salon, cliquez dessus pour régler les paramètres de notification du salon.
+
+{{< img-simple src="menu-notifs" alt="Notifications" class="border-0" >}}
+
+- **Utiliser la valeur par défaut** : utiliser le réglage global de l'application réglé dans les paramètres de notifications ( généralement équivalent à **tous les messages** ).
+- **Tous les messages** : recevoir une notification pour tous les messages envoyés dans le salon.
+- **Mentions et mots-clés** : recevoir une notification uniquement lorsque votre nom est mentionné, ou un mot-clé dans une liste réglable dans les paramètres de notifications.
+- **Aucun** : couper les notifications pour ce salon.
+
+## Trucs et astuces
+
+### Changer son nom d'utilisateur dans un salon spécifique.
+
+Dans Element, vous pouvez régler votre nom d'utilisateur tel qu'il apparaîtra dans un salon spécifique.
+Il suffit, en utilisant **Element sur ordinateur, web ou bureau**, en étant dans le salon où vous souhaitez changer votre nom affiché, de taper:</br>
+`/myroomnick Mon nom pour ce salon`
+</br>Et envoyer le message.

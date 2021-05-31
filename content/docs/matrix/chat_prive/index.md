@@ -9,9 +9,13 @@ images: []
 menu:
   docs:
     parent: "matrix"
-weight: 230
+weight: 240
 toc: true
 ---
+
+## Introduction
+
+Dans Matrix, une conversation privée est un type particulier de salon, n'engageant que deux personnes, avec le chiffrement activé par défaut. C'est le type de **salon le plus confidentiel** possible.
 
 ## Démarrer une nouvelle conversation privée
 
