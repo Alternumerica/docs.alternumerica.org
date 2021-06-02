@@ -16,3 +16,5 @@ toc: true
 ### Les services d'Alternumerica
 
 Pour obtenir de l'aide : {{< email user="assistance" domain="alternumerica.org" >}}
+
+Pour gérer votre compte Alternumerica : https://login.alternumerica.org/auth/realms/Alternumerica/account/#/
