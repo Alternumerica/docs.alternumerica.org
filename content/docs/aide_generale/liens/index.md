@@ -1,7 +1,7 @@
 ---
 title: "Liens URL"
-description: "Qu'est ce qu'un lien URL, principes de bases d'internet"
-lead: "Qu'est ce qu'un lien URL, principes de bases d'internet"
+description: "Qu'est ce qu'un lien URL, principes de base d'internet"
+lead: "Qu'est ce qu'un lien URL, principes de base d'internet"
 date: 2021-06-02T15:19:44+02:00
 lastmod: 2021-06-02T15:19:44+02:00
 draft: false
