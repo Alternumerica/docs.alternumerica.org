@@ -22,21 +22,3 @@ Pour gérer votre compte Alternumerica : https://login.alternumerica.org/auth/re
 
 Pour toute assistance :
 
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-<button id="feedback-form">Demande d'assistance</button>
-
-<script id="zammad_form_script" src="https://zammad.alternumerica.org/assets/form/form.js"></script>
-
-<script>
-$(function() {
-  $('#feedback-form').ZammadForm({
-    messageTitle: 'Formulaire d\'assistance',
-    messageSubmit: 'Envoyer',
-    messageThankYou: 'Merci pour votre requête  (#%s) ! Nous vous recontacterons dans les meilleurs délais.',
-    showTitle: true,
-    modal: true,
-    attachmentSupport: true
-  });
-});
-</script>

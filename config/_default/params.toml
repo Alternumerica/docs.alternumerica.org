@@ -46,13 +46,21 @@ alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/
 docsRepo = "https://github.com/Alternumerica/docs.alternumerica.org/"
 editPage = true
 
+## Zammad integration
+[zammad]
+  integration = true
+  serverAddress = "https://zammad.alternumerica.org"
+  chat = true
+  form = true
+
+
 [options]
   lazySizes = true
   clipBoard = true
   instantPage = true
   flexSearch = true
   darkMode = true
-  bootStrapJs = false
+  bootStrapJs = true
   breadCrumb = false
   highLight = true
   kaTex = false

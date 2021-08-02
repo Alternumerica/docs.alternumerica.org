@@ -87,4 +87,53 @@
   {{ if .Site.Params.options.flexSearch -}}
     <script src="{{ $index.RelPermalink }}" integrity="{{ $index.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
+
+{{ end -}}
+
+{{ if .Site.Params.zammad.integration -}}
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <div id="assistance" class="home-float">
+    <ul class="collapse" id="collapseButtons">
+      {{ if .Site.Params.zammad.form -}}<li><button class="btn btn-primary btn-lg" id="feedback-form">Formulaire d'assistance</button></li>{{ end -}}
+      {{ if .Site.Params.zammad.chat -}}<li><button class="open-zammad-chat btn btn-primary btn-lg">Chat en direct</button></li>{{ end -}}
+    </ul>
+
+    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseButtons" aria-expanded="false" aria-controls="collapseButtons">
+      À l'aide !
+    </button>
+  </div>
+<!--   <button class="btn btn-primary btn-md btn-block" id="alaide">À l'aide</button> -->
+
+  {{ if .Site.Params.zammad.form -}}
+    <script id="zammad_form_script" src="{{ .Site.Params.zammad.serverAddress -}}/assets/form/form.js"></script>
+    <script>
+    $(function() {
+      $('#feedback-form').ZammadForm({
+        messageTitle: 'Formulaire d\'assistance',
+        messageSubmit: 'Envoyer',
+        messageThankYou: 'Merci pour votre requête  (#%s) ! Nous vous recontacterons dans les meilleurs délais.',
+        showTitle: true,
+        modal: true,
+        attachmentSupport: true
+      });
+    });
+    </script>
+
+  {{ end -}}
+
+  {{ if .Site.Params.zammad.chat -}}
+
+    <script src="{{ .Site.Params.zammad.serverAddress -}}/assets/chat/chat.min.js"></script>
+    <script>
+    $(function() {
+      new ZammadChat({
+        fontSize: '12px',
+        chatId: 1,
+        show: false
+      });
+    });
+    </script>
+  {{ end -}}
+
 {{ end -}}
